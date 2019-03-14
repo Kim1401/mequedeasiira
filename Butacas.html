@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Butacas</title>
+	<meta charset="utf-8">
+
+	<link rel="shorcut icon" href="icon.ico">
+	<link rel="stylesheet" type="text/css" href="CSS/Butacas.css">
+
+</head>
+<body onload="cargardatosdelapelicula()">
+
+<div id="datosdelapelicula"></div>
+
+<div class="container">
+<table align="center">
+	<tr><!--Filas H-->
+		<th class="columnas">H</th>
+		<td id="H1"><button id="botbut" onclick="btn()">1</button></td>
+		<td id="H2"><button id="botbut" onclick="btn()">2</button></td>
+		<td id="H3"><button id="botbut" onclick="btn()">3</button></td>
+		<td id="H4"><button id="botbut" onclick="btn()">4</button></td>
+	</tr>	
+	<tr><!--Filas G-->
+		<th class="columnas">G</th>
+		<td id="G1"> <button id="botbut" onclick="btn()">1</button></td>
+		<td id="G2"><button id="botbut" onclick="btn()">2</button></td>
+		<td id="G3"><button id="botbut" onclick="btn()">3</button></td>
+		<td id="G4"><button id="botbut" onclick="btn()">4</button></td>
+	</tr>
+	<tr><!--Filas F-->
+		<th class="columnas">F</th>
+		<td id="F1"><button id="botbut" onclick="btn()">1</button></td>
+		<td id="F2"><button id="botbut" onclick="btn()">2</button></td>
+		<td id="F3"><button id="botbut" onclick="btn()">3</button></td>
+		<td id="F4"><button id="botbut" onclick="btn()">4</button></td>
+	</tr>
+	<tr><!--Filas E-->
+		<th class="columnas">E</th>
+		<td id="E1"><button id="botbut" onclick="btn()">1</button></td>
+		<td id="E2"><button id="botbut" onclick="btn()">2</button></td>
+		<td id="E3"><button id="botbut" onclick="btn()">3</button></td>
+		<td id="E4"><button id="botbut" onclick="btn()">4</button></td>
+	</tr>
+	<tr><!--Filas D-->
+		<th class="columnas">D</th>
+		<td id="D1"><button id="botbut" onclick="btn()">1</button></td>
+		<td id="D2"><button id="botbut" onclick="btn()">2</button></td>
+		<td id="D3"><button id="botbut" onclick="btn()">3</button></td>
+		<td id="D4"><button id="botbut" onclick="btn()">4</button></td>
+		<td id="nada"></td>
+		<td id="nada"></td>
+		<td id="D5" class="fila2"><button id="botbut" onclick="btn()">5</button></td>
+	</tr>
+	<tr><!--Filas C-->
+		<th class="columnas">C</th>
+		<td id="C1"><button id="botbut" onclick="btn()">1</button></td>
+		<td id="C2"><button id="botbut" onclick="btn()">2</button></td>
+		<td id="C3"><button id="botbut" onclick="btn()">3</button></td>
+		<td id="C4"><button id="botbut" onclick="btn()">4</button></td>
+		<td id="nada"></td>
+		<td id="C5" class="fila2"><button id="botbut" onclick="btn()">5</button></td>
+		<td id="C6" class="fila2"><button id="botbut" onclick="btn()">6</button></td>
+	</tr>
+	<tr><!--Filas B-->
+		<th class="columnas">B</th>
+		<td id="B1"><button id="botbut" onclick="btn()">1</button></td>
+		<td id="B2"><button id="botbut" onclick="btn()">2</button></td>
+		<td id="B3"><button id="botbut" onclick="btn()">3</button></td>
+		<td id="B4"><button id="botbut" onclick="btn()">4</button></td>
+		<td id="nada"></td>
+		<td id="B5" class="fila2"><button id="botbut" onclick="btn()">5</button></td>
+		<td id="B6" class="fila2"><button id="botbut" onclick="btn()">6</button></td>
+	</tr>
+	<tr><!--Filas A-->
+		<th class="columnas">A</th>
+		<td id="A1"><button id="botbut" onclick="btn()">1</button></td>
+		<td id="A2"><button id="botbut" onclick="btn()">2</button></td>
+		<td id="A3"><button id="botbut" onclick="btn()">3</button></td>
+		<td id="A4"><button id="botbut" onclick="btn()">4</button></td>
+		<td id="nada"></td>
+		<td id="A5" class="fila2"><button id="botbut" onclick="btn()">5</button></td>
+		<td id="A6" class="fila2"><button id="botbut" onclick="btn()">6</button></td>
+	</tr>
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span><h2 id="titulobutaca"></h2></span><br>
+    <span class="close">&times;</span>
+    <input type="text" id="nombreest" placeholder="Nombre del estudiante"><br>
+    <input type="text" id="carnet" placeholder="Carnet">
+    <input type="text" id="seccion" placeholder="Sección">
+    <button id="guardar" onclick="guardardatosdelabutaca()">Guardar</button>
+  
+  </div>
+
+</div>
+</table>
+	<div align="center">
+		<p>Pantalla</p>
+	</div>
+</div>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="clasepeliculafrontend.js"></script>
+<script type="text/javascript" src="Butacas.js"></script>
+<script type="text/javascript" src="popup.js"></script>
+</body>
+</html>
